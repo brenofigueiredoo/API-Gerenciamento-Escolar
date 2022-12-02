@@ -1,4 +1,21 @@
 # api_gerenciamento-escolar
+Banco de dados de dados voltado ao gerenciamento de alunos, professores e diretoria dentro do ambiente escolar.
+Funcionalidades como:
+
+- Registrar dados do professor
+- Editar dados do professor
+- Excluir registros do professor
+- Ver registros do professor
+- Registrar dados do estudante
+- Editar dados do estudante
+- Excluir registros do estudante
+- Ver registros do estudante
+- Criação de sala dos professores
+- Lista todos os professores de uma sala
+- Criação de uma sala (alunos)
+- Lista todas as salas
+- Agenda um horário de aula
+- Listar todos os horários de aula
 
 ## navegação
 
