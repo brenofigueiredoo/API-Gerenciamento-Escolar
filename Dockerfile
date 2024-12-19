@@ -1,10 +1,10 @@
-FROM node:18.0.0-alpine
+FROM node:23.1.0-alpine
 
 WORKDIR /app
 
 COPY "package.json" .
 
-RUN yarn
+RUN yarn --production=false
 
 COPY . .
 
