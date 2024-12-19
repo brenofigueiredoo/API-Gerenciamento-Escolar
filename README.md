@@ -63,16 +63,6 @@ docker compose up --build
 
 O comando pode variar com a versão do docker compose instalada em sua máquina
 
-***ATENÇÃO:*** a porta utilizada para rodar nosso docker é a `5436`.
-Caso tenha algum problema com essa porta, basta alterá-la no docker-compose.yml.
-
-#### 4. Migrations
-
-Execute as migrations com os comandos:
-```
-docker exec -it api yarn typeorm migration:run -d src/data-source.ts
-```
-
 ## 1. Visão Geral
 
 Visão geral do projeto, um pouco das tecnologias usadas.
